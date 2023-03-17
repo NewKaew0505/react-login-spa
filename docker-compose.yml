@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    build: "./font-app"
+    build: "./reactLogIn"
     restart: always
     ports:
       - 3000:3000
